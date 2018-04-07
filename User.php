@@ -22,6 +22,7 @@ class User{
     
   }
   
-  
+  public function accept($visitor){
+    $visitor->visitUser($this);
 
 }
